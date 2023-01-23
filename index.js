@@ -11,10 +11,10 @@ async function moveNPC() {
     await npc.walkSouth(300)
     await npc.walkEast(1500)
     await npc.walkSouth(1500)
-    await npc.walkkWest(2700)
+    await npc.walkWest(2700)
     await npc.walkNorth(400)
 }
-
+moveNPC()
 
 // Create the inventory
 const inventory = newInventory()
